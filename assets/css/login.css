@@ -1,0 +1,41 @@
+html,body{
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	width: 100%;
+	background: url(../images/login_bg.jpg) no-repeat center;
+	background-size: cover;
+}
+.signInAndUp{
+	width: 400px;
+	height: 310px;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%,-50%);
+	background-color: white;
+}
+.title{
+	height: 50px;
+	background: url(../images/login_title.png) no-repeat center;
+}
+.reg{
+	display: none;
+}
+a{
+	margin-left: 300px;
+}
+.layui-form-item{
+	padding: 0 30px;
+}
+.layui-form-item{
+	position: relative;
+}
+.layui-form-item i{
+	position: absolute;
+	left: 40px;
+	top: 10px;
+}
+.layui-form-item input{
+	padding-left: 30px;
+}
